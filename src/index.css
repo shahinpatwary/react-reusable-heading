@@ -4,20 +4,26 @@
 }
 
 .sectionHeader .tagline {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 110%;
-  font-weight: 700;
+  font-weight: 500;
   color: rgb(53, 158, 123);
 }
 
 .sectionHeader .secTitle {
-  font-size: 45px;
+  font-size: 50px;
   line-height: 110%;
-  margin-top: 10px;
+  margin: 10px 0 30px;
+  font-weight: 600;
+}
+
+.sectionHeader .secTitle span {
+  color: rgb(53, 158, 123);
 }
 
 .sectionHeader .secIntro {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 130%;
   color: #bbb6b6;
+  flex-wrap: 400;
 }

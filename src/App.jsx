@@ -1,5 +1,5 @@
 import './App.css';
-import ReusableHeading from './components/ReusableHeading';
+import SectionHeading from './components/ReusableHeading';
 
 function App() {
 
@@ -7,9 +7,9 @@ function App() {
     <>
      
         
-      <ReusableHeading
+      <SectionHeading
         tagline="About Us"
-        SectionTitle="Almost every major economy around the global"
+        SectionTitle="Almost every major <span>economy around</span> the global"
         SectionIntro="SMEs are the backbone of almost every major economy around the globe! SMEs are the backbone of almost every major economy around the globe!"
       />
       
